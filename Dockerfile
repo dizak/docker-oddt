@@ -1,4 +1,4 @@
-FROM debian
+FROM informaticsmatters/rdkit-python3-debian 
 
 RUN apt update && \
     apt install wget -y 
